@@ -38,5 +38,13 @@ def solveNQ(N):
 N = 5
 solveNQ(N)
 
-
-
+"""
+Approach:
+- I used a backtracking approach to solve the N-Queens problem.
+- I used a 2D array board to represent the chessboard, where 1 represents a queen and 0 represents an empty cell.
+- I used a helper function solveNQUtil to recursively try placing queens on the board.
+- For each cell in the board, I checked if it was safe to place a queen using the isSafe function.
+- If it was safe, I placed a queen on the cell and recursively called solveNQUtil to try placing queens on the remaining cells.
+- If a solution was found, I added it to the solutions list.
+- Finally, I returned the solutions list.
+"""
