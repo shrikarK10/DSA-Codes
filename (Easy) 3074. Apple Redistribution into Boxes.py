@@ -25,3 +25,10 @@ class Solution:
             else:
                 return i
         return len(capacity)
+
+"""
+Approach:
+- Sorted the capacity list in descending order
+- Then just keep adding the capacity of boxes until the sum is greater than or equal to the total number of apples
+- If the sum is greater than or equal to the total number of apples, return the index of the box where the sum is greater than or equal to the total number of apples
+- If the sum is less than the total number of apples, return the length of the capacity list 
