@@ -23,6 +23,7 @@ class Solution:
                 continue
             else:
                 return [i,b]
+
 """
 Approach:
 - So we just loop till n and update b as n-i such that b will be our second number and i will the first number.
